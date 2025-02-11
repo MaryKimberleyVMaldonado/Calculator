@@ -12,7 +12,7 @@ public class main {
         double num2 = scanner.nextDouble();
 
          System.out.print("Choose an operation: (+, -, *, /): ");
-        char op = scanner.next();//.charAt(0);
+        char op = scanner.next();
 
         double res;
 
