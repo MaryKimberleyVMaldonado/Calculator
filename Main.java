@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class main {
     public static void main(String[] args) throws Exception {
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner();
 
         CalOp calc = new CalOp(); 
 
