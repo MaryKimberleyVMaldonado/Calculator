@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class main {
+public class Main {
     public static void main(String[] args) throws Exception {
         Scanner scanner = new Scanner(System.in);
 
@@ -12,7 +12,7 @@ public class main {
         double num2 = scanner.nextDouble();
 
          System.out.print("Choose an operation: (+, -, *, /): ");
-        char op = scanner.next();//.charAt(0);
+        char op = scanner.next().charAt(0);
 
         double res;
 
