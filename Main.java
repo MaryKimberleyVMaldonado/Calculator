@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner();
 
         CalOp calc = new CalOp(); 
 
@@ -12,7 +12,11 @@ public class Main {
         double num2 = scanner.nextDouble();
 
          System.out.print("Choose an operation: (+, -, *, /): ");
+<<<<<<< HEAD
         char op = scanner.next().charAt(0); 
+=======
+        char op = scanner.next();
+>>>>>>> 3bbe9475423ccf1d38f4a42228d40efedd1afee6
 
         double res;
 
